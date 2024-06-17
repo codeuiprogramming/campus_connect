@@ -1,0 +1,39 @@
+name: campus_connect
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  
+flutter:
+  uses-material-design: true
+
+  assets:
+    - lib/assets/images/
+    - lib/assets/icons/facebook.png
+    - lib/assets/icons/google.png
+    - lib/assets/icons/apple.png
+    - lib/assets/images/success.png
+    - lib/assets/images/company1.png
+    - lib/assets/images/company2.png
+    - lib/assets/images/company3.png
+    - lib/assets/images/company4.png
+    - lib/assets/images/company5.png
+    - lib/assets/images/company6.png
+    - lib/assets/images/company7.png
+    - lib/assets/images/company8.png
+    - lib/assets/images/avatar.png    
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  smooth_page_indicator: ^1.1.0
+  intl_phone_field: ^3.2.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
